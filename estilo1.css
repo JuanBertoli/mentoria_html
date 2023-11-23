@@ -1,0 +1,38 @@
+
+
+
+
+.boton_activo{
+    color: rgb(250, 250, 250);
+    background-color: rgb(233, 17, 17);
+    border: 5px solid yellow;
+}
+
+.subrayado{
+    text-decoration: underline;
+}
+
+.contenedor1{
+
+    background-color: aquamarine;
+}
+
+
+@media (max-width: 300px) {
+    /* se activa cuando la pantalla tenga un maximo
+    de 300px de anchura */
+
+    .contenedor1{
+        margin: 50px 20% 50px 20%;
+    }
+  } 
+
+  @media (min-width: 301px) and (max-width: 600px) {
+    /* se activa cuando la pantalla tenga minimo
+    de 301px de anchura */
+
+    .contenedor1{
+        background-color: orange;
+    }
+  }
+  
